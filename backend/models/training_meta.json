@@ -1,0 +1,25 @@
+{
+  "training_rows": 1000,
+  "features": [
+    "product_price",
+    "days_since_purchase",
+    "repair_cost",
+    "category_code",
+    "reason_word_count",
+    "high_value_flag"
+  ],
+  "models": [
+    "damage_classifier",
+    "action_predictor",
+    "salvage_regressor",
+    "nrv_predictor",
+    "fraud_detector"
+  ],
+  "results": {
+    "damage_classifier_accuracy": 0.735,
+    "action_predictor_accuracy": 0.715,
+    "salvage_r2": 0.8897,
+    "nrv_r2": 0.9093,
+    "fraud_detector": "trained"
+  }
+}
